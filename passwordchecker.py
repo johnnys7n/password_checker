@@ -57,4 +57,5 @@ def main(args):
     return 'done!'
 
 
-main(read_txt_file(input))
+if __name__ == '__main__':
+    sys.exit(main(read_txt_file(input)))
